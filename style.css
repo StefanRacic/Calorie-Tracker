@@ -1,3 +1,17 @@
+.nav-left {
+  display: flex;
+  justify-items: center;
+}
+.nav-left i {
+  line-height: 2.4;
+  margin-right: 5px;
+}
+nav .brand-logo i,
+nav .brand-logo [class^="mdi-"],
+nav .brand-logo [class*="mdi-"],
+nav .brand-logo i.material-icons {
+  margin-right: 5px;
+}
 @media (max-width: 700px) {
   .back-btn {
     margin-top: 1rem;
